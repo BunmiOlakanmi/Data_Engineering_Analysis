@@ -1,6 +1,10 @@
 # sql-challenge
 
+### Data Engineering
 
+* I create a table schema for each of the six CSV files provided, specifying the data types, primary keys, foreign keys, and other constraints.
+
+* I Imported each CSV file into the corresponding SQL table. 
 
 ### Data Analysis
 
