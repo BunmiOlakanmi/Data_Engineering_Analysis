@@ -27,3 +27,11 @@ I did the following analysis on the data, using PostgreSQL. The queries are stor
 
 
 * In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+In addition to the analyses mentioned above, I did the following:
+
+* Imported the SQL database into Pandas. 
+
+* Created a histogram to visualize the most common salary ranges for employees.
+
+* Created a bar chart of average salary by title.
