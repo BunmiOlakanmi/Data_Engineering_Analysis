@@ -3,6 +3,8 @@
 
 
 ### Data Analysis
+
+I did the following analysis on the data, using PostgreSQL. The queries are stored in the Queries.sql file.
 * List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 
