@@ -39,21 +39,32 @@ and last_name like 'B%'
 --List all employees in the Sales department, including their employee number, 
 --last name, first name, and department name.
 
-select emp_no as "Employee Number", last_name as "Last name", first_name as "First name", dept_name as "Department"
-from employees, departments
-where departments.dept_name = 'Sales'
+select employees.emp_no as "Employee Number", last_name as "Last name", first_name as "First name", dept_name as "Department"
+from employees, departments, dept_emp
+where dept_emp.emp_no = employees.emp_no
+and departments.dept_no = dept_emp.dept_no
+and departments.dept_name = 'Sales'
 
 --List all employees in the Sales and Development departments, including their 
 --employee number, last name, first name, and department name.
 
-select emp_no as "Employee Number", last_name as "Last name", first_name as "First name", dept_name as "Department"
-from employees, departments
-where departments.dept_name IN('Sales', 'Development')
+select employees.emp_no as "Employee Number", last_name as "Last name", first_name as "First name", dept_name as "Department"
+from employees, departments, dept_emp
+where dept_emp.emp_no = employees.emp_no
+and dept_emp.dept_no = departments.dept_no
+and departments.dept_name IN('Sales', 'Development')
 
 --In descending order, list the frequency count of employee last names, 
 --i.e., how many employees share each last name.
 
+-- Order by last_name in descending order
 select last_name as "Last Name", count(last_name) as "Frequency Count of Employee Last Names"
 from employees
 GROUP BY last_name
 ORDER BY last_name DESC
+
+-- Order by descending order of count of last_name
+select last_name as "Last Name", count(last_name) as "Frequency Count of Employee Last Names"
+from employees
+GROUP BY last_name
+ORDER BY 2 DESC
