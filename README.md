@@ -5,14 +5,16 @@ This challenge is divided into two sections : data engineering and data analysis
 ### Data Engineering
 
 Six csv files were provided. So, I sketched the ERD of six tables from the csv files provided, using http://www.quickdatabasediagrams.com.
+The final ERD is named EmployeeDB_ERD.png
 
 * I created a table schema for each of the six CSV files provided, specifying the data types, primary keys, foreign keys, and other constraints.
+The queries used in creating the six tables are saved in EmployeeDB_Tables.sql file.
 
 * I Imported each CSV file into the corresponding SQL table. 
 
 ### Data Analysis
 
-I did the following analyses on the data, using PostgreSQL. The queries are stored in the Queries.sql file.
+I did the following analyses on the data, using PostgreSQL. The queries are stored in the EmployeeDB_Queries.sql file.
 * List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 
