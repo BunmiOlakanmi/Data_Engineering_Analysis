@@ -31,7 +31,7 @@ and departments.dept_no = dept_emp.dept_no
 --List first name, last name, and sex for employees whose first name is 
 --"Hercules" and last names begin with "B."
 
-Select first_name as "Last name", last_name as "Last name", sex as "Sex"
+Select first_name as "First name", last_name as "Last name", sex as "Sex"
 from employees 
 where first_name = 'Hercules'
 and last_name like 'B%'
@@ -67,4 +67,4 @@ ORDER BY last_name DESC
 select last_name as "Last Name", count(last_name) as "Frequency Count of Employee Last Names"
 from employees
 GROUP BY last_name
-ORDER BY 2 DESC
+ORDER BY "Frequency Count of Employee Last Names" DESC
