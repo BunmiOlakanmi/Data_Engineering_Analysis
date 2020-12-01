@@ -1,8 +1,12 @@
 # sql-challenge
 
+This challenge is divided into two sections : data engineering and data analysis.
+
 ### Data Engineering
 
-* I create a table schema for each of the six CSV files provided, specifying the data types, primary keys, foreign keys, and other constraints.
+Six csv files were provided. So, I sketched the ERD of six tables from the csv files provided, using http://www.quickdatabasediagrams.com.
+
+* I created a table schema for each of the six CSV files provided, specifying the data types, primary keys, foreign keys, and other constraints.
 
 * I Imported each CSV file into the corresponding SQL table. 
 
