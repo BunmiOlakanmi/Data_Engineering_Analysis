@@ -1,6 +1,5 @@
-# sql-challenge
-
-This challenge is divided into two sections : data engineering and data analysis.
+# Employee Database: Data Engineering and Analysis
+This project is divided into two sections : data engineering and data analysis.
 
 ### Data Engineering
 
