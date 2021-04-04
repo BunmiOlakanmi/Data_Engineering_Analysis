@@ -11,19 +11,14 @@ This project is divided into two sections : data engineering and data analysis o
 4.  Quick database diagram tool at http://www.quickdatabasediagrams.com
 
 ### Data Engineering
-The purpose of this section of the project is to load the employee data from the csv files to PostgreSQL, and also to draw the database diagram to show relationships between the different tables in the database. The employee data is initially given on six csv files, which were used in sketching the ERD of the six tables from the six csv files using http://www.quickdatabasediagrams.com. The final ERD is named EmployeeDB_ERD.png.
+The purpose of this section of the project is to draw the entity-relationship diagram (ERD) showing the relationships between the tables in the employee database, and to load the employee data from the csv files to PostgreSQL. The employee data is initially given on six csv files, which were used in sketching the ERD of the six tables from the six csv files using http://www.quickdatabasediagrams.com. The final ERD is named EmployeeDB_ERD.png.
 
 
 
 ![EmployeeDB_ERD](https://user-images.githubusercontent.com/71471355/113506818-3c5bf780-9504-11eb-886c-351906c611b6.png)
 
-Six csv files were provided. So, I sketched the ERD of six tables from the csv files provided, using http://www.quickdatabasediagrams.com.
-The final ERD is named EmployeeDB_ERD.png
+From http://www.quickdatabasediagrams.com, the table schema for each of the six CSV files is created, specifying the data types, primary keys, foreign keys, and other constraints. The queries used in creating the six tables are saved in EmployeeDB_Tables.sql file. Then, the CSV files are loaded into the corresponding SQL tables in postgreSQL. 
 
-* I created a table schema for each of the six CSV files provided, specifying the data types, primary keys, foreign keys, and other constraints.
-The queries used in creating the six tables are saved in EmployeeDB_Tables.sql file.
-
-* I Imported each CSV file into the corresponding SQL table. 
 
 ### Data Analysis
 
