@@ -6,6 +6,7 @@ This project is divided into two sections : data engineering and data analysis o
     - csv
     - os
     - pandas
+    - SQLAlchemy
 2.  Jupyter Notebook
 3.  PostgreSQL
 4.  Quick database diagram tool at http://www.quickdatabasediagrams.com
@@ -21,35 +22,35 @@ From http://www.quickdatabasediagrams.com, the table schema for each of the six 
 
 
 ### Data Analysis
+The purpose of this section of the project is to analyse the employee data stored in the postgreSQL in order to get some information, using SQL queries. The queries are stored in the EmployeeDB_Queries.sql file. The information required from the analyses are:
 
-I did the following analyses on the data, using PostgreSQL. The queries are stored in the EmployeeDB_Queries.sql file.
-* List the following details of each employee: employee number, last name, first name, sex, and salary.
+* The following details of each employee: employee number, last name, first name, sex, and salary.
 
-
-* Listed first name, last name, and hire date for employees who were hired in 1986.
-
-
-* Listed the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+* The first name, last name, and hire date for employees who were hired in 1986.
 
 
-* Listed the department of each employee with the following information: employee number, last name, first name, and department name.
+* The manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 
 
-* Listed first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+* The department of each employee with the following information: employee number, last name, first name, and department name.
 
 
-* Listed all employees in the Sales department, including their employee number, last name, first name, and department name.
+* The first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
 
-* Listed all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+* All employees in the Sales department, including their employee number, last name, first name, and department name.
 
 
-* In descending order, I listed the frequency count of employee last names, i.e., how many employees share each last name.
+* All employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-In addition to the analyses mentioned above, I did the following:
 
-* Imported the SQL database into Pandas. 
+* In descending order, the frequency count of employee last names, i.e., how many employees share each last name.
 
-* Created a histogram to visualize the most common salary ranges for employees.
 
-* Created a bar chart of average salary by title.
+In addition to the analyses mentioned above, the employee database was imported to Pandas using SQLAlchemy. Then, the following charts were created
+
+* A histogram to visualize the most common salary ranges for employees.
+
+* A bar chart of average salary by title.
+
+
