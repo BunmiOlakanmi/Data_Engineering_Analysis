@@ -61,10 +61,11 @@ In addition to the analyses mentioned above, the employee database was imported 
 <img width="469" alt="Screen Shot 2021-04-05 at 5 36 05 AM" src="https://user-images.githubusercontent.com/71471355/113507463-d96c5f80-9507-11eb-9704-44e76ba16c5a.png">
 
 #### Instructions
-1.  Open the query tool in postgreSQL, then run the SQL queries in ....
-2.  nnn
+1.  To see the output of the analyses above, run the SQL queries in EmployeeDb_Queries.sql file using the query tool in postgreSQL.
+2.  To see the visualization, run the EmployeeSQL.ipynb file in Jupyter Notebook.
 
 #### File Description
-1.  
+1.  EmployeeSQL.ipynb contains the python code to import the employee database from postgreSQL using SQLAlchemy, and visualize some information from the data.
+2.  EmployeeDb_Queries.sql contains the SQL queries used to do the data analyses. 
 
 
