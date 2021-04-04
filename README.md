@@ -1,7 +1,21 @@
 # Employee Database: Data Engineering and Analysis
-This project is divided into two sections : data engineering and data analysis.
+This project is divided into two sections : data engineering and data analysis of an employee database.
+
+### Tools used in this project
+1.  Python Libraries:
+    - csv
+    - os
+    - pandas
+2.  Jupyter Notebook
+3.  PostgreSQL
+4.  Quick database diagram tool at http://www.quickdatabasediagrams.com
 
 ### Data Engineering
+The purpose of this section of the project is to load the employee data from the csv files to PostgreSQL, and also to draw the database diagram to show relationships between the different tables in the database. The employee data is initially given on six csv files, which were used in sketching the ERD of the six tables from the six csv files using http://www.quickdatabasediagrams.com. The final ERD is named EmployeeDB_ERD.png.
+
+
+
+![EmployeeDB_ERD](https://user-images.githubusercontent.com/71471355/113506818-3c5bf780-9504-11eb-886c-351906c611b6.png)
 
 Six csv files were provided. So, I sketched the ERD of six tables from the csv files provided, using http://www.quickdatabasediagrams.com.
 The final ERD is named EmployeeDB_ERD.png
