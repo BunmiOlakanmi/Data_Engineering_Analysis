@@ -14,11 +14,21 @@ This project is divided into two sections : data engineering and data analysis o
 ### Data Engineering
 The purpose of this section of the project is to draw the entity-relationship diagram (ERD) showing the relationships between the tables in the employee database, and to load the employee data from the csv files to PostgreSQL. The employee data is initially given on six csv files, which were used in sketching the ERD of the six tables from the six csv files using http://www.quickdatabasediagrams.com. The final ERD is named EmployeeDB_ERD.png.
 
-
+#### Instructions
+To try this section of the project, ensure that all csv files and the SQL queries are saved in the same folder on your computer.
+1.  ERD diagram 'EmployeeDB_ERD.png' can be created using http://www.quickdatabasediagrams.com.
+2.  Create the employee database in postgreSQL.
+3.  Run the EmployeeDB_Tables.sql file in postgreSQL to create all the tables and their relationships.
+4.  Load each csv file into their corresponding table in postgreSQL.
 
 ![EmployeeDB_ERD](https://user-images.githubusercontent.com/71471355/113506818-3c5bf780-9504-11eb-886c-351906c611b6.png)
 
 From http://www.quickdatabasediagrams.com, the table schema for each of the six CSV files is created, specifying the data types, primary keys, foreign keys, and other constraints. The queries used in creating the six tables are saved in EmployeeDB_Tables.sql file. Then, the CSV files are loaded into the corresponding SQL tables in postgreSQL. 
+
+#### File Description
+1.  EmployeeDB_ERD.png contains the ERD of the database.
+2.  EmployeeDB_Tables.sql contains SQL queries to create all the tables and the relationships between them.
+3.  Resources folder contains all the six csv files used to populate the tables in the database.
 
 
 ### Data Analysis
@@ -28,21 +38,15 @@ The purpose of this section of the project is to analyse the employee data store
 
 * The first name, last name, and hire date for employees who were hired in 1986.
 
-
 * The manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-
 
 * The department of each employee with the following information: employee number, last name, first name, and department name.
 
-
 * The first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
-
 
 * All employees in the Sales department, including their employee number, last name, first name, and department name.
 
-
 * All employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
 
 * In descending order, the frequency count of employee last names, i.e., how many employees share each last name.
 
@@ -56,5 +60,11 @@ In addition to the analyses mentioned above, the employee database was imported 
 <img width="570" alt="Screen Shot 2021-04-05 at 5 35 17 AM" src="https://user-images.githubusercontent.com/71471355/113507462-d83b3280-9507-11eb-8870-ebee5c93e8e1.png">
 <img width="469" alt="Screen Shot 2021-04-05 at 5 36 05 AM" src="https://user-images.githubusercontent.com/71471355/113507463-d96c5f80-9507-11eb-9704-44e76ba16c5a.png">
 
+#### Instructions
+1.  Open the query tool in postgreSQL, then run the SQL queries in ....
+2.  nnn
+
+#### File Description
+1.  
 
 
