@@ -3,8 +3,8 @@ This project is divided into two sections : data engineering and data analysis o
 
 ### Tools used in this project
 1.  Python Libraries:
-    - csv
-    - os
+    - config
+    - matplotlib.pyplot
     - pandas
     - SQLAlchemy
 2.  Jupyter Notebook
