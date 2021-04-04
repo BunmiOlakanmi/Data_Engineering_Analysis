@@ -53,4 +53,8 @@ In addition to the analyses mentioned above, the employee database was imported 
 
 * A bar chart of average salary by title.
 
+<img width="570" alt="Screen Shot 2021-04-05 at 5 35 17 AM" src="https://user-images.githubusercontent.com/71471355/113507462-d83b3280-9507-11eb-8870-ebee5c93e8e1.png">
+<img width="469" alt="Screen Shot 2021-04-05 at 5 36 05 AM" src="https://user-images.githubusercontent.com/71471355/113507463-d96c5f80-9507-11eb-9704-44e76ba16c5a.png">
+
+
 
